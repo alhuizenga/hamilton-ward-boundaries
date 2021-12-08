@@ -8,7 +8,9 @@ Documentation about how to query the service endpoint is available here:
 
 https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer-.htm
 
-Outputs a JSON file that contains the geographic coordinates for the intersection points that form each ward's polygon, in both .
+Outputs a JSON file that contains the geographic coordinates for the intersection points that form each ward's polygon, in both [EPSG:3857]|(https://epsg.io/4326) and EPSG:4326 coordinate formats.
+
+https://spatialreference.org/ref/epsg/wgs-84/
 
 Outputs registry data as local CSV and JSON files:
 
